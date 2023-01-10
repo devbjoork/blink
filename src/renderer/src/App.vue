@@ -1,6 +1,3 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
-<template>
-  Hello Vite Vue TS
-</template>
+<template>Hello Vite Vue TS</template>
