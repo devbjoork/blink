@@ -2,7 +2,9 @@
   "name": "blink",
   "version": "1.0.0",
   "description": "API design and testing tool",
+  "main": "main.js",
   "scripts": {
+    "electron": "electron ."
   },
   "repository": {
     "type": "git",
@@ -13,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/devbjoork/blink/issues"
   },
-  "homepage": "https://github.com/devbjoork/blink#readme"
+  "homepage": "https://github.com/devbjoork/blink#readme",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  }
 }
