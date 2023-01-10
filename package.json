@@ -1,0 +1,17 @@
+{
+  "name": "blink",
+  "version": "1.0.0",
+  "description": "API design and testing tool",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbjoork/blink.git"
+  },
+  "author": "devbjoork <bjoorko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devbjoork/blink/issues"
+  },
+  "homepage": "https://github.com/devbjoork/blink#readme"
+}
