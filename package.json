@@ -2,9 +2,13 @@
   "name": "blink",
   "version": "1.0.0",
   "description": "API design and testing tool",
-  "main": "main.js",
+  "main": "./out/main/index.js",
   "scripts": {
-    "electron": "electron ."
+    "start": "electron-vite preview",
+    "dev": "electron-vite dev",
+    "prebuild": "electron-vite build",
+    "build": "tsc",
+    "electron": "npm run build && electron ./dist/ipcMain.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,17 @@
   },
   "homepage": "https://github.com/devbjoork/blink#readme",
   "devDependencies": {
-    "electron": "^22.0.0"
+    "@electron-toolkit/tsconfig": "^1.0.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "electron": "^22.0.0",
+    "electron-vite": "^1.0.17",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vue": "^3.2.36",
+    "vue-tsc": "^1.0.24"
+  },
+  "dependencies": {
+    "@electron-toolkit/preload": "^1.0.3",
+    "@electron-toolkit/utils": "^1.0.2"
   }
 }
