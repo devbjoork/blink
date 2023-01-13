@@ -7,5 +7,4 @@ import RequestPanelBasic from './RequestPanelBasic.vue';
   <div class="params"></div>
 </template>
 
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>
