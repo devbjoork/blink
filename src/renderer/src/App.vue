@@ -16,16 +16,19 @@ import FooterToolbar from './components/FooterToolbar.vue';
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .container {
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
-}
+  color: #fbf1c7;
+  font-family: 'Segoe WPC', 'Segoe UI', sans-serif;
+  background-color: #1d2021;
 
-.main {
-  display: flex;
-  flex: 1;
+  .main {
+    display: flex;
+    flex: 1;
+  }
 }
 </style>

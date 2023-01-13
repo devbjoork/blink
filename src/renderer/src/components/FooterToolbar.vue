@@ -13,15 +13,16 @@ function changeOrientation(): void {
 
 <template>
   <footer>
-    <span>Footer here</span>
-    <button @click="changeOrientation()">O</button>
+    <span></span>
+    <button @click="changeOrientation()"></button>
   </footer>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 footer {
   display: flex;
   height: 26px;
-  background-color: coral;
+  box-sizing: border-box;
+  border-top: 1px solid #3c3836;
 }
 </style>

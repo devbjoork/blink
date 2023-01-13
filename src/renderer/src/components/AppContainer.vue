@@ -1,13 +1,12 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="container">Application</div>
+  <div class="container"></div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .container {
   display: flex;
-  background-color: bisque;
   flex: 1;
 }
 </style>
