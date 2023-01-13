@@ -13,7 +13,6 @@ function changeOrientation(): void {
 
 <template>
   <footer>
-    <span></span>
     <button @click="changeOrientation()"></button>
   </footer>
 </template>

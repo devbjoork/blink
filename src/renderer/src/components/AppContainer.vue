@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import RequestPanel from './RequestPanel.vue';
+</script>
 
 <template>
-  <div class="container"></div>
+  <div class="container">
+    <RequestPanel />
+  </div>
 </template>
 
 <style scoped lang="scss">
