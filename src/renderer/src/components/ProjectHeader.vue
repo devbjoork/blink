@@ -6,7 +6,7 @@
       <div>Items:</div>
     </div>
     <div class="right">
-      <input type="text" name="" id="">
+      <input id="" type="text" name="" />
       <button>Sort</button>
       <button>Create</button>
     </div>
@@ -19,7 +19,8 @@
   justify-content: space-between;
   padding: 2rem;
 
-  .left {}
+  .left {
+  }
   .right {
     input {
       background: none;
