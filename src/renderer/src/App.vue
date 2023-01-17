@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import HeaderToolbar from './components/HeaderToolbar.vue';
 import SideToolbar from './components/SideToolbar.vue';
-import AppContainer from './components/AppContainer.vue';
 import FooterToolbar from './components/FooterToolbar.vue';
 </script>
 
@@ -10,7 +9,7 @@ import FooterToolbar from './components/FooterToolbar.vue';
     <HeaderToolbar />
     <div class="main">
       <SideToolbar />
-      <AppContainer />
+      <router-view></router-view>
     </div>
     <FooterToolbar />
   </div>
