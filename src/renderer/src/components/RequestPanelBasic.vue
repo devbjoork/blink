@@ -7,8 +7,8 @@
       <option value="POST">POST</option>
     </select>
     <input type="text" name="" placeholder="https://example.com" />
-    <button>Send</button>
-    <button>></button>
+    <button class="left">Send</button>
+    <button class="right">></button>
   </div>
 </template>
 
@@ -46,13 +46,30 @@
   }
 
   button {
+    margin-top: 6px;
+    margin-bottom: 6px;
     background-color: #fe8019;
     color: #1d2021;
     border: none;
-    padding: 0 0.5rem;
+    // padding: 0 0.5rem;
     border-left: 1px solid #3c3836;
     box-shadow: inset 0 0 5px #a7520d;
     font-size: 0.85rem;
+  }
+
+  .left {
+    border-top-left-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
+
+  .right {
+    margin-right: 0.5rem;
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
   }
 }
 </style>
