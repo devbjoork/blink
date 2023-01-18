@@ -23,7 +23,7 @@ import FooterToolbar from './components/FooterToolbar.vue';
   width: 100%;
   color: #fbf1c7;
   font-family: 'Segoe WPC', 'Segoe UI', sans-serif;
-  background-color: #1d2021;
+  background-color: #282828;
 
   .main {
     display: flex;
