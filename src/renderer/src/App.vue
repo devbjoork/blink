@@ -1,7 +1,16 @@
 <script setup lang="ts">
+import { useRouter } from 'vue-router';
+import { onMounted } from 'vue';
+
 import HeaderToolbar from './components/HeaderToolbar.vue';
 import SideToolbar from './components/SideToolbar.vue';
 import FooterToolbar from './components/FooterToolbar.vue';
+
+const router = useRouter();
+
+onMounted(() => {
+  router.push('/home');
+});
 </script>
 
 <template>

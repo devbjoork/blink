@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { useAppStore } from '@renderer/stores/app';
-import { useRouter } from 'vue-router';
 
 const store = useAppStore();
-const router = useRouter();
 
 function changeOrientation(): void {
   store.orientation === 'horizontal'
@@ -11,22 +9,11 @@ function changeOrientation(): void {
     : store.setOrientation('horizontal');
   console.log(store.orientation);
 }
-
-/** temp */
-function navMain(): void {
-  router.push({ path: '/home' });
-}
-
-function navProject(): void {
-  router.push({ path: '/project' });
-}
 </script>
 
 <template>
   <footer>
     <button @click="changeOrientation()"></button>
-    <button @click="navMain()"></button>
-    <button @click="navProject()"></button>
   </footer>
 </template>
 

@@ -1,13 +1,19 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Icon } from '@iconify/vue';
+
+</script>
 
 <template>
   <div class="side">
     <div class="side-title">Your Projects</div>
     <section class="section-header">
       <span>Projects (1)</span>
-      <button>+</button>
+      <button><Icon icon="uil:plus" height="11"/></button>
     </section>
-    <section class="section-content section-active">General</section>
+    <section class="section-content section-active">
+      <Icon icon="uil:bag" />
+      General
+    </section>
   </div>
 </template>
 
@@ -35,12 +41,13 @@
       background: none;
       border: none;
       color: inherit;
+      vertical-align: middle;
     }
   }
 
   .section-content {
     font-weight: lighter;
-    padding: 0.3rem 0.7rem;
+    padding: 0.5rem 0.7rem;
   }
 
   .section-active {
